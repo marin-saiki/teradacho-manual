@@ -1,0 +1,750 @@
+<!doctype html><html><head><meta charset=utf8><meta name="robots" content="noindex,nofollow"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>大阪寺田町店 店舗取り扱い説明書・緊急時マニュアル対応</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Cinzel:wght@600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 紺の暖簾ヒーロー（金の英字・明朝・粋の透かし）→ 3つのタブ。どてっぱん仕様：紺×金×朱・明朝見出し・金の罫線 */
+:root{
+  --bg:#ffffff; --fg:#0A1E3C; --sub:#5a6273; --line:#e6dcc6; --panel:#f8f4ea;
+  --accent:#0A1E3C; --accent-h:#16325e; --on-accent:#ffffff; --accent-soft:#D8C9A6; --accent-bg:#f8f4ea;
+  --gold:#BEA56E; --gold-ink:#8a7440; --shu:#E6461E;
+  --hero:#0A1E3C; --hero-fg:#ffffff; --hero-sub:#c9cfdb; --hero-line:rgba(190,165,110,.45);
+  --ok:#2f6b4a; --ok-bg:#e9f1ea; --warn:#9a6a14; --warn-bg:#f8efd9; --ng:#C81E00; --ng-bg:#fcebe5; --mute:#7b8190; --mute-bg:#f1efe9;
+  --f-head:"Shippori Mincho B1","Yu Mincho","YuMincho","Hiragino Mincho ProN",serif;
+  --f-body:"Noto Sans JP","Yu Gothic","YuGothic","Hiragino Sans",sans-serif;
+  --f-en:"Cinzel","Times New Roman",serif;
+  --f-num:"DM Mono","Consolas",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#071428; --fg:#f1ece0; --sub:#a9b0bf; --line:#22365a; --panel:#0d2141;
+  --accent:#cdb680; --accent-h:#BEA56E; --on-accent:#0A1E3C; --accent-soft:#5c5034; --accent-bg:#132a4d;
+  --gold:#cdb680; --gold-ink:#cdb680; --shu:#ff6a44;
+  --hero:#040d1c; --hero-fg:#ffffff; --hero-sub:#b3bccc; --hero-line:rgba(205,182,128,.4);
+  --ok:#7fcf9c; --ok-bg:#12301f; --warn:#e5b45a; --warn-bg:#33270f; --ng:#ff7a56; --ng-bg:#3a1710; --mute:#9aa1b0; --mute-bg:#14264a;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#071428; --fg:#f1ece0; --sub:#a9b0bf; --line:#22365a; --panel:#0d2141;
+  --accent:#cdb680; --accent-h:#BEA56E; --on-accent:#0A1E3C; --accent-soft:#5c5034; --accent-bg:#132a4d;
+  --gold:#cdb680; --gold-ink:#cdb680; --shu:#ff6a44;
+  --hero:#040d1c; --hero-fg:#ffffff; --hero-sub:#b3bccc; --hero-line:rgba(205,182,128,.4);
+  --ok:#7fcf9c; --ok-bg:#12301f; --warn:#e5b45a; --warn-bg:#33270f; --ng:#ff7a56; --ng-bg:#3a1710; --mute:#9aa1b0; --mute-bg:#14264a;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.7;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--hero)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* hero */
+.hero{background:var(--hero);color:var(--hero-fg);position:relative;overflow:hidden;border-bottom:3px solid var(--gold)}
+.hero::after{content:"粋";position:absolute;right:-.06em;bottom:-.22em;font-family:var(--f-head);font-weight:800;font-size:clamp(220px,34vw,420px);line-height:1;color:rgba(190,165,110,.07);pointer-events:none}
+.hero .wrap{padding-block:52px 42px;display:grid;gap:16px;position:relative;z-index:1}
+.hero .en{font-family:var(--f-en);font-weight:700;font-size:clamp(15px,2vw,19px);letter-spacing:.32em;color:var(--gold);margin:0;display:flex;align-items:center;gap:14px}
+.hero .en::after{content:"";flex:0 1 120px;height:1px;background:var(--hero-line)}
+.hero h1{font-family:var(--f-head);font-weight:800;font-size:clamp(30px,5.4vw,54px);margin:0;text-wrap:balance;line-height:1.3;letter-spacing:.04em}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:5px 16px;font-family:var(--f-head);font-weight:700;font-size:13px;letter-spacing:.06em}
+.hero .pill{border:1px solid var(--gold);color:var(--gold);width:max-content;max-width:100%}
+.hero p{margin:0;color:var(--hero-sub);max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.stat{border:1px solid var(--hero-line);border-radius:4px;padding:10px 18px;min-width:0}
+.stat b{display:block;font-family:var(--f-num);font-size:26px;line-height:1.1;color:var(--gold);font-variant-numeric:tabular-nums}
+.stat small{color:var(--hero-sub);font-size:12px;letter-spacing:.06em}
+.stat.red b{color:#ff7a56}
+
+/* tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.tabs .wrap{display:flex;gap:8px;padding-block:12px;overflow-x:auto}
+.tab{border:1px solid var(--accent-soft);background:transparent;color:var(--fg);border-radius:999px;padding:8px 18px;font-family:var(--f-head);font-weight:700;font-size:14px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.tab:hover{border-color:var(--gold)}
+.tab .cnt{font-family:var(--f-num);font-size:12px;margin-left:6px;opacity:.85}
+
+main .wrap{padding-block:28px 64px}
+section h2{font-family:var(--f-head);font-weight:800;font-size:28px;margin:0 0 6px;text-wrap:balance;letter-spacing:.04em}
+.lead{color:var(--sub);margin:0 0 22px;max-width:70ch}
+h3.grp{font-family:var(--f-head);font-weight:700;font-size:17px;letter-spacing:.1em;color:var(--fg);margin:34px 0 14px;display:flex;align-items:center;gap:12px}
+h3.grp::before{content:"";width:8px;height:8px;background:var(--gold);transform:rotate(45deg);flex:none}
+h3.grp::after{content:"";flex:1;height:1px;background:var(--gold)}
+
+/* manual cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{border:1px solid var(--line);border-top:2px solid var(--gold);border-radius:4px;padding:18px;display:grid;gap:10px;align-content:start;background:var(--bg);min-width:0}
+.card .maker{font-size:12px;color:var(--sub);letter-spacing:.06em}
+.card .name{font-family:var(--f-head);font-weight:700;font-size:17px;line-height:1.4;margin:0}
+.card .model{font-family:var(--f-num);font-size:13px;color:var(--fg);background:var(--panel);border-radius:10px;padding:2px 10px;width:max-content;max-width:100%;overflow-wrap:anywhere}
+.card .where{font-size:13px;color:var(--sub)}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700;font-family:var(--f-head);border:1px solid var(--accent);color:var(--accent);background:transparent}
+.btn.main{background:var(--accent);color:var(--on-accent)}
+.btn.main:hover{background:var(--accent-h);border-color:var(--accent-h)}
+.btn:hover{border-color:var(--accent-h)}
+.tag{display:inline-block;border-radius:999px;padding:1px 10px;font-size:12px;font-weight:700;font-family:var(--f-head)}
+.tag.paper{background:var(--ok-bg);color:var(--ok)}
+.tag.web{background:var(--mute-bg);color:var(--sub)}
+.tag.nopdf{background:var(--warn-bg);color:var(--warn)}
+.memo{font-size:13px;color:var(--sub);border-left:3px solid var(--gold);padding-left:10px}
+
+/* docs */
+.docgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.doc{border:1px solid var(--line);border-radius:4px;padding:14px 16px;display:grid;gap:6px;min-width:0}
+.doc .top{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
+.doc .from{font-family:var(--f-head);font-weight:700;font-size:15px}
+.doc .date{font-family:var(--f-num);font-size:12px;color:var(--sub)}
+.doc .imgs{font-family:var(--f-num);font-size:12px;color:var(--gold-ink)}
+.doc ul{margin:0;padding-left:1.1em;font-size:13.5px}
+.doc li{margin:1px 0}
+.doc .alert{font-size:13px;color:var(--ng);font-weight:700}
+
+/* minohin */
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:22px}
+.sum{border-radius:4px;border-top:2px solid var(--gold)!important;padding:12px 14px;border:1px solid var(--line)}
+.sum b{display:block;font-family:var(--f-num);font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.sum span{font-size:12.5px;color:var(--sub)}
+.sum.ng b{color:var(--ng)} .sum.diff b{color:var(--warn)} .sum.ok b{color:var(--ok)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.filters select,.filters input{font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--bg);color:var(--fg);min-width:0}
+.filters input{flex:1 1 220px}
+.chk{display:flex;align-items:center;gap:6px;font-size:13.5px;color:var(--sub)}
+.vendor{border:1px solid var(--line);border-radius:4px;margin-bottom:14px;overflow:hidden}
+.vendor > summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--panel)}
+.vendor > summary::-webkit-details-marker{display:none}
+.vendor > summary h4{margin:0;font-family:var(--f-head);font-weight:700;font-size:17px;letter-spacing:.04em}
+.vendor > summary .vsub{font-size:12.5px;color:var(--sub)}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.b{border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700;font-family:var(--f-head);font-variant-numeric:tabular-nums}
+.b.ng{background:var(--ng-bg);color:var(--ng)} .b.diff{background:var(--warn-bg);color:var(--warn)} .b.ok{background:var(--ok-bg);color:var(--ok)} .b.mute{background:var(--mute-bg);color:var(--sub)}
+.tablebox{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+th,td{text-align:left;padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:500;letter-spacing:.04em;background:var(--bg)}
+td.num{font-family:var(--f-num);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.no{font-family:var(--f-num);color:var(--sub);white-space:nowrap}
+td .m{display:block;font-size:12.5px;color:var(--sub);margin-top:2px}
+.st{white-space:nowrap}
+.extra li{margin:4px 0}
+.empty{padding:16px 18px;color:var(--sub);font-size:14px}
+.note-box{border:1px solid var(--accent-soft);background:var(--accent-bg);border-radius:4px;padding:14px 18px;font-size:14px;margin:0 0 20px}
+.note-box b{color:var(--shu)}
+/* 納品の記録 */
+.savebar{border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:4px;padding:10px 14px;font-size:13.5px;color:var(--sub);margin-bottom:18px}
+.savebar b{color:var(--fg)}
+.recent{border:1px solid var(--line);border-radius:4px;margin-bottom:20px}
+.recent h4{margin:0;padding:10px 14px;font-family:var(--f-head);font-size:15px;background:var(--panel);border-bottom:1px solid var(--line)}
+.recent ul{list-style:none;margin:0;padding:0}
+.recent li{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;padding:8px 14px;border-top:1px solid var(--line);font-size:13.5px}
+.recent li:first-child{border-top:0}
+.recent .when{font-family:var(--f-num);font-size:12px;color:var(--sub);margin-left:auto}
+.krow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;align-items:center;padding:12px 16px;border-top:1px solid var(--line)}
+.krow:first-child{border-top:0}
+.krow .kn{font-size:14px;min-width:0}
+.krow .kn small{display:block;color:var(--sub);font-size:12.5px;margin-top:2px}
+.krow .kq{font-family:var(--f-num);color:var(--sub);font-size:12.5px}
+.seg{display:inline-flex;border:1px solid var(--accent-soft);border-radius:999px;overflow:hidden;flex-wrap:nowrap}
+.seg button{font:inherit;font-family:var(--f-head);font-weight:700;font-size:13px;border:0;background:transparent;color:var(--sub);padding:7px 14px;cursor:pointer;white-space:nowrap}
+.seg button+button{border-left:1px solid var(--accent-soft)}
+.seg button[aria-pressed="true"].s-ok{background:var(--ok);color:#fff}
+.seg button[aria-pressed="true"].s-diff{background:var(--warn);color:#fff}
+.seg button[aria-pressed="true"].s-none{background:var(--ng);color:#fff}
+.seg button:disabled{cursor:not-allowed;opacity:.55}
+.linkbtn{font:inherit;font-size:12.5px;border:0;background:none;color:var(--gold-ink);text-decoration:underline;cursor:pointer;padding:0}
+.changed{font-size:12px;color:var(--gold-ink)}
+@media (max-width:560px){.krow{grid-template-columns:1fr}.seg{width:100%}.seg button{flex:1;padding:8px 6px}}
+/* 緊急時 */
+.sos{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:0 0 18px}
+.sosbtn{display:grid;gap:2px;text-decoration:none;border-radius:4px;padding:12px 14px;color:#fff;border:1px solid transparent}
+.sosbtn b{font-family:var(--f-num);font-size:22px;line-height:1.15;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.sosbtn span{font-size:12.5px;opacity:.92}
+.sosbtn.fire{background:#C81E00}.sosbtn.police{background:var(--hero)}.sosbtn.gas{background:#9a6a14}.sosbtn.soudan{background:#2f6b4a}
+:root[data-theme="dark"] .sosbtn.police{border-color:var(--gold)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .sosbtn.police{border-color:var(--gold)}}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
+.jump a{font-family:var(--f-head);font-weight:700;font-size:13px;text-decoration:none;color:var(--fg);border:1px solid var(--accent-soft);border-radius:999px;padding:5px 14px}
+.jump a:hover{border-color:var(--gold)}
+.steps{margin:0;padding-left:1.4em;display:grid;gap:8px;max-width:72ch}
+.steps li::marker{font-family:var(--f-num);color:var(--gold-ink);font-weight:500}
+.steps.small{font-size:14px;gap:4px}
+.note{font-size:14px;color:var(--sub);max-width:72ch;margin:10px 0 14px}
+.note.small{font-size:12.5px;margin:8px 0}
+.area-switch{display:inline-flex;border:1px solid var(--accent);border-radius:999px;overflow:hidden;margin-bottom:4px}
+.aswitch{font:inherit;font-family:var(--f-head);font-weight:700;font-size:15px;border:0;background:transparent;color:var(--fg);padding:8px 26px;cursor:pointer}
+.aswitch[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
+.area{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.trbl{border:1px solid var(--line);border-top:2px solid var(--gold);border-radius:4px;padding:14px 16px;min-width:0}
+.trbl.wide{margin-top:12px}
+.trbl h4{margin:0 0 8px;font-family:var(--f-head);font-weight:700;font-size:16px;line-height:1.45}
+.trbl p{margin:0;font-size:14px}
+.trbl dl{margin:0;display:grid;gap:8px}
+.trbl dt{font-weight:700;font-size:13.5px;color:var(--ng)}
+.trbl dd{margin:0;font-size:14px}
+.tel{font-family:var(--f-num);font-weight:500;white-space:nowrap}
+.phase{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.ph{border:1px solid var(--line);border-radius:4px;padding:14px 16px;background:var(--panel);min-width:0}
+.ph h4{margin:0 0 8px;font-family:var(--f-head);font-weight:700;font-size:16px}
+.ph ul{margin:0;padding-left:1.1em;display:grid;gap:5px;font-size:14px}
+.cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.contacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.cbox{border:1px solid var(--line);border-top:2px solid var(--gold);border-radius:4px;padding:14px 16px;min-width:0}
+.cbox h4{margin:0 0 6px;font-family:var(--f-head);font-weight:700;font-size:16px}
+.clist{list-style:none;margin:0;padding:0}
+.clist li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:8px 0;border-top:1px solid var(--line);align-items:baseline}
+.clist li:first-child{border-top:0}
+.clist li span{font-size:13.5px;min-width:0}
+.clist li b{font-size:15px;text-align:right}
+.clist li small{grid-column:1/-1;font-size:12px;color:var(--sub)}
+.clist li.empty-row span{color:var(--sub)}
+.sedit{display:grid;gap:8px;margin-top:10px}
+.sedit .row{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:6px}
+.sedit input{font:inherit;font-size:14px;border:1px solid var(--line);border-radius:4px;padding:7px 9px;background:var(--bg);color:var(--fg);min-width:0}
+.sedit .acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn.small{padding:5px 12px;font-size:12.5px;cursor:pointer;background:transparent}
+.btn.main.small{background:var(--accent)}
+@media (max-width:560px){.sedit .row{grid-template-columns:1fr 1fr}.aswitch{padding:8px 18px}}
+.cbox.wide2{grid-column:1/-1}
+.ftable{min-width:620px}
+.ftable td{font-size:13.5px}
+.ftable td.num{text-align:left;white-space:normal}
+.tips{margin:12px 0 0;padding-left:1.1em;display:grid;gap:5px;font-size:14px;max-width:80ch}
+.rulebox{border:2px solid var(--gold);border-radius:4px;padding:14px 16px;margin:0 0 14px;background:var(--panel)}
+.rulebox h4{margin:0 0 10px;font-family:var(--f-head);font-weight:800;font-size:17px}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.rule{display:grid;gap:2px;min-width:0}
+.rule .rk{font-size:12px;letter-spacing:.08em;color:var(--gold-ink);font-weight:700}
+.rule b{font-family:var(--f-head);font-size:17px}
+.rule small{font-size:13px;color:var(--sub)}
+footer{border-top:1px solid var(--line);color:var(--sub);font-size:12.5px}
+footer .wrap{padding-block:22px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+
+/* 機器トラブル・取扱業者 */
+.eswitch{font:inherit;font-family:var(--f-head);font-weight:700;font-size:15px;border:0;background:transparent;color:var(--fg);padding:8px 22px;cursor:pointer}
+.eswitch[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
+.ebar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 6px}
+.ebar input{font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--bg);color:var(--fg);flex:1 1 220px;min-width:0}
+.tsl{margin:0;display:grid;gap:7px}
+.tsl dt{font-weight:700;font-size:13.5px;color:var(--ng)}
+.tsl dd{margin:0;font-size:14px}
+.fixline{font-size:13px;border-top:1px dashed var(--line);padding-top:8px}
+.fixline span{display:inline-block;font-size:11.5px;letter-spacing:.06em;color:var(--gold-ink);font-weight:700;margin-right:8px}
+.vtable{min-width:640px}
+.vtable tbody tr:nth-child(even) td,.svtable tbody tr:nth-child(even) td{background:var(--panel)}
+.ntable{min-width:560px}
+.ntable td{font-size:13.5px;vertical-align:top}
+.ntable td.nv{width:11em;border-right:1px solid var(--line);background:var(--panel)}
+.ntable td.nv b{display:block;font-family:var(--f-head);font-size:14.5px}
+.ntable td.nv small{display:block;font-size:12px;color:var(--sub);margin-top:2px}
+.ntable td.nk{width:7.5em;white-space:nowrap}
+.kchip{display:inline-block;font-size:11.5px;font-weight:700;border:1px solid var(--gold);color:var(--gold-ink);border-radius:999px;padding:1px 9px;white-space:nowrap}
+.vtable td{font-size:13.5px}
+.vtable td b{font-family:var(--f-head);font-size:14.5px}
+.nl{margin:0;padding-left:1.1em;display:grid;gap:3px;font-size:13px}
+.svtable{min-width:620px}
+.tel{font-family:var(--f-num)}
+.qrbox{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:10px;background:#fff}
+.qrbox img{flex:none;width:132px;height:132px;background:#fff}
+.qrbox span{font-size:12.5px;color:#3a3f4a}
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="pill">ミニどてっぱん 大阪寺田町店｜クルー用</span>
+    <p class="en">TERADACHO · MANUALS</p>
+    <h1>大阪寺田町店<br><em>店舗取り扱い説明書・緊急時マニュアル対応</em></h1>
+    <p>緊急時の動き方、機器が動かないときの直し方、取引業者様の連絡先をまとめたクルー用のページです。困ったら、まず「緊急時」タブを開いてください。</p>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="ページ切替">
+  <div class="wrap" role="tablist">
+    <button class="tab" role="tab" id="tab-kinkyu" data-view="kinkyu" aria-selected="true">緊急時</button>
+    <button class="tab" role="tab" id="tab-kiki" data-view="kiki" aria-selected="false">機器トラブル</button>
+    <button class="tab" role="tab" id="tab-gyosha" data-view="gyosha" aria-selected="false">取引業者様</button>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <section id="v-kinkyu">
+      <h2>緊急時マニュアル</h2>
+      <p class="lead">ミニどてっぱん 大阪寺田町店（天王寺区大道4-1-5 1階）のクルー向けです。迷ったら、まず<b>お客様と自分の安全</b>、次に<b>社員へ連絡</b>。一人で判断しなくて大丈夫です。</p>
+
+      <div class="sos">
+        <a class="sosbtn fire" href="tel:119"><b>119</b><span>火事・救急</span></a>
+        <a class="sosbtn police" href="tel:110"><b>110</b><span>事件・暴力・食い逃げ</span></a>
+        <a class="sosbtn gas" href="tel:0120019424"><b>0120-0-19424</b><span>ガス漏れ（大阪ガス・24時間）</span></a>
+        <a class="sosbtn soudan" href="tel:%237119"><b>#7119</b><span>救急車を呼ぶか迷ったら</span></a>
+      </div>
+
+      <nav class="jump" aria-label="緊急時の項目">
+        <a href="#k-first">まず最初に</a><a href="#kiki">機械の故障 →</a><a href="#k-jishin">地震</a><a href="#k-kaji">火事・ガス・停電</a><a href="#k-okyaku">お客様トラブル</a><a href="#k-renraku">連絡先</a><a href="#k-chikaku">交番・銀行・両替</a>
+      </nav>
+
+      <h3 class="grp" id="k-first">まず最初に（どの緊急時も同じ）</h3>
+      <ol class="steps">
+        <li><b>安全を確保する。</b>お客様、クルー、自分の順にけががないか見る。危ない場所からは離れる。</li>
+        <li><b>大きな声で周りに知らせる。</b>「火事です！」「地震です、頭を守ってください！」。一人で抱えない。</li>
+        <li><b>必要なら119・110。</b>命に関わることは、社員への連絡より先に通報してかまいません。</li>
+        <li><b>社員に電話する。</b>下の「店の連絡先」の上から順に。つながるまで次の人へ。</li>
+        <li><b>あとで記録する。</b>いつ・何が・誰が・どうしたかを、落ち着いてからメモ。写真もあると助かります。</li>
+      </ol>
+
+      <article class="trbl wide">
+        <h4>ガスメーターの戻し方（地震のあと、火がつかないとき）</h4>
+        <ol class="steps small">
+          <li>鉄板など、すべてのガス器具の栓を閉める。</li>
+          <li>ガスメーターの復帰ボタンのキャップを外し、ボタンを奥まで押してゆっくり離す。</li>
+          <li>3分ほど待つ（その間ガスは使わない）。ランプの点滅が消えたら使える。</li>
+          <li>ガス臭いとき、何度やっても戻らないときは、大阪ガス <span class="tel">0120-0-19424</span>。</li>
+        </ol>
+      </article>
+
+      <h3 class="grp" id="k-jishin">地震</h3>
+      <div class="phase">
+        <div class="ph"><h4>揺れている間</h4>
+          <ul>
+            <li>「地震です！頭を守ってください！」と大きな声でお客様に伝える。</li>
+            <li>自分も頭を守る。棚・ガラス・鉄板から離れる。</li>
+            <li><b>揺れている間に火を消しに行かない。</b>熱い鉄板や油でやけどをします。</li>
+            <li>近くにいれば出入口のドアを開けて、出口を確保する。</li>
+          </ul></div>
+        <div class="ph"><h4>揺れが収まったら</h4>
+          <ul>
+            <li>鉄板のガス栓を閉める。ほかの火も止める。</li>
+            <li>お客様とクルーのけがを確認。けが人がいたら119。</li>
+            <li>あわてて外へ走らせない。落下物・ガラスに気をつけて誘導する。</li>
+            <li>お会計は後回し。<b>安全が先</b>。お客様の連絡先を控えられれば控える。</li>
+            <li>社員へ連絡。営業を続けるかは社員が決める。</li>
+          </ul></div>
+        <div class="ph"><h4>避難するとき</h4>
+          <ul>
+            <li>一時避難場所：<b>大道北公園</b>（天王寺区大道4-6）。店のすぐ近く。</li>
+            <li>避難所：<b>天王寺小学校</b>（大道1-4-49）。災害の状況によって開く。</li>
+            <li>広域避難場所：天王寺公園。</li>
+            <li>出る前にガス栓を閉める。ブレーカーは落としてから出る。</li>
+            <li>クルー全員がそろっているか、避難先で数える。</li>
+          </ul></div>
+      </div>
+
+      <h3 class="grp" id="k-kaji">火事・ガス漏れ・停電</h3>
+      <div class="phase">
+        <div class="ph"><h4>火事</h4>
+          <ul>
+            <li>「火事です！」と大声で知らせる。</li>
+            <li>119番。「天王寺区大道4-1-5、どてっぱん寺田町店。〇〇が燃えています」</li>
+            <li>初期消火は消火器で。<b>鉄板の油に水はかけない</b>。</li>
+            <li>火が天井に届いたら消すのをやめて、お客様を外へ誘導。</li>
+          </ul></div>
+        <div class="ph"><h4>ガス漏れ（ガス臭い）</h4>
+          <ul>
+            <li>火を使わない。換気扇・照明・電気のスイッチに触らない（火花が出る）。</li>
+            <li>ガス栓を閉める。窓とドアを開ける。</li>
+            <li>お客様を外へ。<b>店の外から</b>大阪ガス <span class="tel">0120-0-19424</span>（24時間）。</li>
+            <li>050で始まるIP電話からはつながらないことがある。その場合は携帯から。</li>
+          </ul></div>
+        <div class="ph"><h4>停電</h4>
+          <ul>
+            <li>店だけか、周りもかを確認（隣の店・外の信号）。店だけならブレーカー。</li>
+            <li>周りも停電なら、鉄板のガス栓を閉める。冷蔵庫は開けない。</li>
+            <li>暗い客席はスマホのライトで足元を照らして誘導。</li>
+            <li>関西電力送配電 <span class="tel">0800-777-3081</span>（IP電話からは 050-3085-3081）。</li>
+          </ul></div>
+      </div>
+
+      <h3 class="grp" id="k-okyaku">お客様トラブル</h3>
+      <div class="cases">
+        <article class="trbl"><h4>やけど（鉄板）</h4><p>すぐに流水で15〜20分冷やす。服の上からなら脱がさずそのまま冷やす。水ぶくれはつぶさない。広い範囲・顔・子どものやけどは119。社員へ連絡して、状況を記録。</p></article>
+        <article class="trbl"><h4>急に具合が悪くなった・倒れた</h4><p>声をかけて反応を見る。反応がない・呼吸がおかしいときは119（必要ならAED）。迷ったら #7119（つながらなければ 06-6582-7119）。周りのお客様には席を少し離れてもらう。</p></article>
+        <article class="trbl"><h4>アレルギーを聞かれた・症状が出た</h4><p>原材料は<b>その場で「大丈夫です」と言わない</b>。社員に確認してから答える。食べたあとに息苦しさ・じんましん・ぐったりしたら119。</p></article>
+        <article class="trbl"><h4>料理に異物が入っていた</h4><p>まず心からおわびする。現物は捨てずに保管し、写真を撮る。作り直し・返金は社員が判断するので、その場で約束しない。社員へ連絡。</p></article>
+        <article class="trbl"><h4>クレーム・お叱り</h4><p>さえぎらずに最後まで聞く。不快な思いをさせたことをおわびする。言い訳しない。自分で決められないことは「責任者に確認します」と言って社員につなぐ。一人で対応し続けない。</p></article>
+        <article class="trbl"><h4>酔ったお客様・迷惑行為</h4><p>二人以上で対応する。ほかのお客様の安全が先。お酒の提供は社員と相談して止める。暴力・おどし・物を壊したら、迷わず110。</p></article>
+        <article class="trbl"><h4>食い逃げ（お会計せずに帰った）</h4><p><b>追いかけない。</b>けがをします。特徴（服・人数・向かった方向）と時間をメモして、社員と110。</p></article>
+        <article class="trbl"><h4>忘れ物・落とし物</h4><p>日時・席・品物を書いて保管。財布・スマホなど大事な物は社員が管理。取りに来たら本人確認をしてから渡す。</p></article>
+      </div>
+
+      <h3 class="grp" id="k-renraku">連絡先</h3>
+      <div class="contacts">
+        <article class="cbox">
+          <h4>店の連絡先（社員）</h4>
+          <p class="note small">上から順に電話。つながらなければ次の人へ。</p>
+          <ul class="clist" id="staffList"></ul>
+          
+        </article>
+        <article class="cbox">
+          <h4>緊急・公共</h4>
+          <ul class="clist">
+            <li><span>火事・救急</span><b class="tel">119</b></li>
+            <li><span>警察（事件・事故）</span><b class="tel">110</b></li>
+            <li><span>救急安心センターおおさか（24時間）</span><b class="tel">#7119</b><small>つながらないとき 06-6582-7119</small></li>
+            <li><span>大阪ガス ガス漏れ通報（24時間・大阪市内）</span><b class="tel">0120-0-19424</b></li>
+            <li><span>関西電力送配電（停電・電気設備）</span><b class="tel">0800-777-3081</b><small>IP電話から 050-3085-3081</small></li>
+            <li><span>天王寺警察署（六万体町5-8）</span><b class="tel">06-6773-1234</b></li>
+            <li><span>天王寺消防署（上本町8-5-10）</span><b class="tel">06-6771-0119</b><small>元町出張所（大道2-9-17）06-6772-0119</small></li>
+          </ul>
+        </article>
+        <article class="cbox">
+          <h4>機械・取引先</h4>
+          <ul class="clist">
+            <li><span>この店の電話（納品書の届け先）</span><b class="tel">080-5400-0066</b></li>
+            <li><span>マルキ（厨房備品・キャベロボ・食器）</span><b class="tel">03-3494-1911</b><small>FAX 03-3494-1912</small></li>
+            <li><span>伊東金属工業所 イトキン（鉄板）</span><b class="tel">072-361-4590</b></li>
+            <li><span>カクヤス（ドリンク）</span><b class="tel">050-3786-3198</b></li>
+          </ul>
+          <p class="note small">機械の修理・取引先への連絡は、基本的に社員がします。クルーは社員につながらないときだけ使ってください。ほかの取引業者様は「取引業者様」タブ。</p>
+        </article>
+        <article class="cbox">
+          <h4>避難場所</h4>
+          <ul class="clist">
+            <li><span>一時避難場所</span><b>大道北公園</b><small>天王寺区大道4-6（店のすぐ近く）</small></li>
+            <li><span>災害時避難所</span><b>天王寺小学校</b><small>天王寺区大道1-4-49</small></li>
+            <li><span>広域避難場所</span><b>天王寺公園</b></li>
+          </ul>
+        </article>
+      </div>
+      <h3 class="grp" id="k-chikaku">近くの交番・銀行・小銭両替</h3>
+      <div class="rulebox">
+        <h4>寺田町店の決まり：両替と入金はここ</h4>
+        <div class="rules">
+          <div class="rule"><span class="rk">小銭の両替</span><b>三井住友銀行 寺田町支店</b><small>阿倍野区天王寺町北2-14-1（寺田町駅から約200〜270m）／店から歩いて約5分・車で2〜3分。11月24日から「寺田町店」に名前が変わる（場所は同じ）。量が多いときは前日までに電話で予約</small></div>
+          <div class="rule"><span class="rk">売上の入金</span><b>りそな銀行 寺田町駅前出張所（ATM）</b><small>天王寺区大道4-10-11（寺田町駅北口から歩いて約1分）。<b>入金できるのはお札だけ</b>。入金は会社（りそな）のカードで行う。硬貨は入金できないので、翌日のつり銭に回す</small></div>
+        </div>
+      </div>
+      <div class="contacts">
+        <article class="cbox">
+          <h4>交番</h4>
+          <ul class="clist">
+            <li><span>生野西交番（生野警察署）</span><b>生野西4-14-13</b><small>寺田町駅から歩いて約4分。いちばん近い交番</small></li>
+            <li><span>四天王寺東交番（天王寺警察署）</span><b>大道2-9-7</b><small>店のある天王寺区の交番。寺田町駅から歩いて約9分</small></li>
+          </ul>
+          <p class="note small">事件・事故・食い逃げは、交番に行くより先に <b class="tel">110</b>。落とし物の届け出や相談は交番へ。</p>
+        </article>
+        <article class="cbox">
+          <h4>銀行・ATM（寺田町駅のまわり）</h4>
+          <ul class="clist">
+            <li><span>三井住友銀行 寺田町支店</span><b>小銭の両替はここ</b><small>阿倍野区天王寺町北2-14-1（駅から約200m）。ATM 平日・土 7:00〜24:00、日 7:00〜21:00。2026年11月24日から「寺田町店」に名前が変わる（場所は同じ）</small></li>
+            <li><span>三菱UFJ銀行 ATMコーナー 寺田町駅北口</span><b>ATMのみ</b><small>大道4-11-21（北口改札を出てすぐ）。毎日 6:00〜24:00</small></li>
+            <li><span>りそな銀行 寺田町駅前出張所</span><b>売上の入金はここ</b><small>大道4-10-11（北口から歩いて約1分）。ATMのみで、入金はお札だけ</small></li>
+            <li><span>ゆうちょ銀行 JR寺田町駅内出張所</span><b>ATMのみ</b><small>改札前。平日 7:00〜23:00、土 8:00〜23:00、日 8:00〜21:00</small></li>
+            <li><span>コンビニATM</span><b>24時間</b><small>セブン-イレブン ハートインJR寺田町駅北口店、ファミリーマート寺田町駅前</small></li>
+          </ul>
+          <p class="note small">農協（JAバンク）は、天王寺区と寺田町のまわりに店舗がありません。いちばん近いのは、生野区にあるJA大阪市の巽支店です。</p>
+        </article>
+        <article class="cbox wide2">
+          <h4>小銭の両替（お札 → つり銭）</h4>
+          <p class="note small" style="margin-top:0">手数料は「1回に両替する枚数」で決まります。棒金1本は50枚なので、<b>10本（500枚）までなら1回分の手数料</b>で済みます。少しずつ何回も行くより、<b>まとめて1回</b>が安くなります。</p>
+          <div class="tablebox"><table class="ftable">
+            <thead><tr><th>どこで</th><th>1〜10枚</th><th>11〜500枚</th><th>メモ</th></tr></thead>
+            <tbody>
+              <tr><td>三菱UFJ銀行 両替機（両替機専用カード）</td><td class="num">1回目 無料<br>2回目から 200円</td><td class="num"><b>300円</b></td><td>まとめて両替するなら一番安い。口座と専用カードが必要。寺田町駅北口のATMコーナーに両替機があるかは未確認</td></tr>
+              <tr><td>三井住友銀行 両替機（キャッシュカード）</td><td class="num">無料</td><td class="num">使えない</td><td>口座のキャッシュカードで、10枚までなら無料</td></tr>
+              <tr><td>三井住友銀行 両替機（両替機専用カード）</td><td class="num">400円</td><td class="num">400円</td><td>寺田町支店が一番近い。両替機の有無と使える時間は支店で確認</td></tr>
+              <tr><td>三井住友銀行 窓口</td><td class="num">220円</td><td class="num">770円</td><td>口座がある場合。両替機より高い</td></tr>
+              <tr><td>大阪シティ信用金庫 両替機</td><td class="num">200円</td><td class="num">400円</td><td>寺田町のまわりには店舗が見つからない</td></tr>
+            </tbody>
+          </table></div>
+          <ul class="tips">
+            <li>両替は<b>三井住友銀行 寺田町支店</b>で、なるべくまとめて1回で。1,000枚を超えると窓口で2,310円かかる（例：硬貨1,191枚）。</li>
+            <li>りそなのキャッシュカードか両替機専用カードがあれば、天王寺の阿倍野橋支店の両替機の方が安い（1,191枚で1,200円）。ただし店から車で5〜10分かかる。</li>
+            <li>日々の売上で入った硬貨を、翌日のつり銭に回す。両替に行く回数を減らせる。</li>
+            <li>ゆうちょATMに硬貨を入れると、1枚から手数料がかかる。つり銭づくりには使わない。</li>
+            <li>手数料は変わることがある。初めて使う前に、銀行で今の金額を確認する。</li>
+          </ul>
+        </article>
+      </div>
+      <p class="note small">電話番号・住所・両替手数料は、2026年10月25日に各社・自治体・銀行のサイトで確認しました。消火器・AED・ガスメーター・分電盤の場所は、店で確認して社員の連絡先と一緒に書き足してください。</p>
+    </section>
+    <section id="v-kiki" hidden>
+      <h2>機器トラブル</h2>
+      <p class="lead">機械が動かない・おかしいときに、まず自分で確かめることをまとめました。<b>無理に直さない・分解しない</b>。直らなければ電源を切るかガス栓を閉めて、「使用中止」の貼り紙をして社員へ。修理の手配は社員がします。</p>
+      <div class="ebar">
+        <div class="area-switch" role="tablist" aria-label="エリア">
+          <button type="button" class="eswitch" data-area="kitchen" aria-selected="true">キッチン</button>
+          <button type="button" class="eswitch" data-area="hall" aria-selected="false">ホール</button>
+          <button type="button" class="eswitch" data-area="system" aria-selected="false">ダイニー・USEN・Stera</button>
+        </div>
+        <input id="eText" type="search" placeholder="機械の名前や症状で探す（例：冷えない、プリンター）" aria-label="機械の名前や症状で探す">
+      </div>
+      <div id="equip"></div>
+      <p class="note small">型番は「厨房承認図」（フクシマガリレイ 10/5版）と「厨房機器リスト」（9/25版）、初回発注リスト、納品書から確認しました。</p>
+    </section>
+    <section id="v-gyosha" hidden>
+      <h2>取引業者様</h2>
+      <p class="lead">寺田町店の取引業者様の一覧です。発注はMPSが基本。発注の締め切りと届く日を見て、足りなくなる前に発注してください。</p>
+      <h3 class="grp">食材・ドリンク・消耗品</h3>
+      <div class="tablebox"><table class="vtable">
+        <thead><tr><th>カテゴリー</th><th>発注先</th><th>発注方法</th><th>締め切り</th><th>届く日</th><th>届く時間</th></tr></thead>
+        <tbody id="foodRows"></tbody>
+      </table></div>
+      <h3 class="grp">取引業者様ごとの注意点</h3>
+      <div class="tablebox"><table class="ntable">
+        <thead><tr><th>取引業者様</th><th>項目</th><th>内容</th></tr></thead>
+        <tbody id="noteRows"></tbody>
+      </table></div>
+      <p class="note small">MPSのログイン情報はこのページに載せていません。社員に聞いてください。</p>
+      <h3 class="grp">機器・設備・システム</h3>
+      <div class="tablebox"><table class="svtable">
+        <thead><tr><th>対象</th><th>取引業者様</th><th>電話</th><th>メモ</th></tr></thead>
+        <tbody id="svcRows"></tbody>
+      </table></div>
+      <p class="note small">取引業者様への連絡は、基本的に社員がします。</p>
+    </section>
+  </div>
+</main>
+
+<footer><div class="wrap">更新：2026年10月26日／元データ：厨房承認図・厨房機器リスト（フクシマガリレイ）、【取引先リスト】大阪寺田町店、寺田町_オープン発注.xlsx、初回発注リスト、納品書、高瀬物産 文野さんとのLINE（注文書の写真とトーク）。電話番号は各社・自治体のサイトで確認しました。</div></footer>
+
+<script>
+const HOSHI = "ホシザキ京阪 天王寺営業所 06-6776-8501（平日）／土曜 0120-30-6038";
+const GALI = "フクシマガリレイ 0120-213-521（平日 9:00〜17:00）";
+const HOSHI_RESUME = ["停電後の運転再開の手順（ホシザキ）","https://www.hoshizaki.co.jp/p/support/emergency/procedure_resume_operation.html"];
+const EQUIP = [
+ /* ---------------- キッチン ---------------- */
+ {area:"kitchen", g:"加熱・調理", name:"鉄板（卓上ガスグリドル）", maker:"イトキン（伊東金属工業所）", model:"YS450 都市ガス13A", t:[
+   ["ガス臭い","すぐにガス栓を閉める。火をつけない、換気扇や照明のスイッチも触らない。窓とドアを開け、店の外から大阪ガス 0120-0-19424 へ。"],
+   ["火がつかない","ガス栓が開いているか、ガスホースのプラグが奥まで差さっているかを確認。地震のあとはガスメーターが止まっていることがある（「緊急時」タブの「ガスメーターの戻し方」）。"],
+   ["炎が赤い・不安定・消える","使うのをやめてガス栓を閉め、社員へ。"],
+   ["温度が上がらない","温度計（AD-5635）で確認。直らなければ社員へ。"],
+   ["油に火が入った","水は絶対にかけない。ガス栓を閉め、消火器で消す。天井に届いたら避難して119。"]],
+  fix:"伊東金属工業所 072-361-4590", paper:"取説は紙のみ（検査証あり）", links:[["メーカーの製品ページ","https://osaka-itokin.com/itokin/syou2_4.htm"]]},
+ {area:"kitchen", g:"加熱・調理", name:"ガスゆで麺器（角槽ラーメン釜）", maker:"マルゼン", model:"MRK-046B", t:[
+   ["火がつかない","ガス栓とガスメーターを確認。立消え安全装置で火が消えたときは、少し待ってからつけ直す。"],
+   ["水が少ない","空だきは厳禁。必ず水を張ってから火をつける。減ったら足し水。"],
+   ["吹きこぼれる","火を弱める。隣の鉄板に水が飛ぶので注意（仕切りを入れる予定）。"]],
+  fix:"社員へ（マルゼン本社 03-5603-7111）", paper:"web", links:[["承認図（PDF）","https://www.maruzen-kitchen.co.jp/pdf/syouninzu/MRK-046B.pdf"],["製品ページ","https://www.maruzen-kitchen.co.jp/product/warmer-all/boiled-noodle-machine/item-noodle_rmn_020/"]]},
+ {area:"kitchen", g:"加熱・調理", name:"キャベツスライサー キャベロボ", maker:"ドリマックス", model:"DX-150", t:[
+   ["止まった・詰まった","スイッチを切り、プラグを抜いてから詰まりを取る。刃の近くに手を入れない。"],
+   ["本体が熱い・焦げ臭い","連続運転は30分まで。プラグを抜いて冷ます。煙が出たら使用中止で社員へ。"],
+   ["切れない","手で切る。刃の交換は社員がマルキ経由で手配。"]],
+  fix:"マルキ 03-3494-1911（購入先）", paper:"web", links:[["取説PDF（保証書付）","http://www.dremax.com/wp-content/uploads/2016/01/8ca676c5601563f6bf4ee34bd5a19176.pdf"],["製品ページ","http://www.dremax.com/products/dx-150/"]]},
+ {area:"kitchen", g:"加熱・調理", name:"電子レンジ／オーブントースター", maker:"ツインバード／COMFEE'", model:"DR-4259B／CF-MD081-BK", t:[
+   ["火花・煙・中で燃えている","扉は開けない。スイッチを切ってプラグを抜き、火が消えるのを待つ。消えなければ119。"],
+   ["温まらない・動かない","プラグとブレーカーを確認。直らなければ「使用中止」の貼り紙をして社員へ。"],
+   ["置き場所","11/6に厨房の追加棚がつくまでは仮置き。"]],
+  fix:"社員へ", paper:"web", links:[["電子レンジ 公式ストア（取説欄あり）","https://store.twinbird.jp/products/dr4259"],["トースター 取説PDF","https://www.feelcomfee.com/content/dam/comfee-aem/jp/products/product-manuals/moa-manual/CF-MD081-BK%20-%E8%AA%AC%E6%98%8E%E6%9B%B8.pdf"]]},
+ {area:"kitchen", g:"冷蔵・冷凍", name:"タテ型冷蔵庫", maker:"ホシザキ", model:"HR-63ZT（他店からの移設品）", t:[
+   ["冷えない・温度が上がる","扉がきちんと閉まっているか、パッキンに物がはさまっていないかを見る。詰め込みすぎて冷気の吹き出し口をふさいでいないか。温度と時間をメモして社員へ。"],
+   ["停電・ブレーカーのあと","扉を開けない。復旧したら下の「運転再開の手順」を見て、温度を確認して記録。"],
+   ["床に水がたまる","下のドレンホースが外れていないか確認。拭いて「足元注意」を出す。"],
+   ["傷んだかもしれない食材","出さない。社員に確認。"]],
+  fix:HOSHI, paper:"紙の取説なし（移設品）", links:[HOSHI_RESUME]},
+ {area:"kitchen", g:"冷蔵・冷凍", name:"タテ型冷凍庫", maker:"フクシマガリレイ", model:"GRN-124FX1", t:[
+   ["冷えない・霜が多い","扉の閉め忘れ、パッキンのはさまりを確認。開け閉めを減らす。温度と時間をメモして社員へ。"],
+   ["停電したとき","扉を開けない。復旧後に温度を確認して記録。"]],
+  fix:GALI, paper:"web", links:[["よくある質問（フクシマガリレイ）","https://www.galilei.co.jp/support/faq/"],["修理の申し込み","https://www.galilei.co.jp/support/"]]},
+ {area:"kitchen", g:"冷蔵・冷凍", name:"コールドテーブル冷蔵庫 ×2", maker:"フクシマガリレイ", model:"LRC-120RX（改）／LRC-120RX-R（改）", t:[
+   ["冷えない","前の下にある吸気口を、箱や物でふさがない。ホテルパンの開口部はフタをする。"],
+   ["天板の開口","1/6ホテルパン×2、1/9ホテルパン×4。"],
+   ["水がたまる・結露","扉のパッキンを拭いて、閉まり具合を確認。"]],
+  fix:GALI, paper:"web", links:[["仕様図（PDF）","https://www.galilei.co.jp/Files/siyozu/LRC-120RX.pdf"],["よくある質問","https://www.galilei.co.jp/support/faq/"]]},
+ {area:"kitchen", g:"冷蔵・冷凍", name:"冷蔵ショーケース（スライド扉）", maker:"フクシマガリレイ", model:"MSU-090GHWSRX", t:[
+   ["扉が重い・閉まらない","レールのごみを取る。物が扉に当たっていないか。"],
+   ["冷えない","扉が少し開いたままになっていないか。商品を詰めすぎない。"]],
+  fix:GALI, paper:"web", links:[["よくある質問","https://www.galilei.co.jp/support/faq/"]]},
+ {area:"kitchen", g:"洗浄・製氷", name:"食器洗浄機", maker:"ホシザキ", model:"JWE-450RUB3-L", t:[
+   ["汚れが落ちない","洗剤（デターファインコンク）とリンス（ドライイット）の残量を確認。フィルターとノズルにごみが詰まっていないか。"],
+   ["動かない","扉がきちんと閉まっているか。電源とブレーカー。"],
+   ["お湯の温度が上がらない","ガス湯沸器が動いているか確認。"],
+   ["停電のあと","下の「運転再開の手順」を見る。"]],
+  fix:HOSHI+"（洗剤はティーポール）", paper:"web", links:[HOSHI_RESUME]},
+ {area:"kitchen", g:"洗浄・製氷", name:"キューブアイス製氷機", maker:"ホシザキ", model:"IM-35M-1（貯氷18kg）", t:[
+   ["氷ができない・少ない","給水の元栓が開いているか。前の吸気口にほこりがたまっていないか。"],
+   ["停電のあと","下の「運転再開の手順」を見る。"],
+   ["衛生","氷スコップを中に入れっぱなしにしない。"]],
+  fix:HOSHI, paper:"web", links:[HOSHI_RESUME]},
+ {area:"kitchen", g:"ドリンク・給湯・換気", name:"ビールサーバー・マルチディスペンサー", maker:"ドリンクの取引先が手配（別途品）", model:"型番は本体のラベルで確認", t:[
+   ["泡ばかり出る","樽が冷えているか、炭酸ガスの残量と圧を確認。グラスが熱いときも泡立つ。"],
+   ["注げない・出ない","樽が空なら交換。炭酸ガスの元栓とボンベの残量を確認。つなぎ目がしっかりはまっているか。"],
+   ["ボンベの置き場","11/6に「ボンベ架台」が取り付けられる。"]],
+  fix:"カクヤス 050-3786-3198", paper:"web", links:[]},
+ {area:"kitchen", g:"ドリンク・給湯・換気", name:"ガス湯沸器（給湯器）", maker:"既設（別途ガス工事）", model:"16号相当（本体のラベルで確認）", t:[
+   ["お湯が出ない","ガス栓とリモコンの電源を確認。地震のあとはガスメーターの復帰。"],
+   ["ガス臭い","すぐに使用をやめ、店の外から大阪ガス 0120-0-19424。"]],
+  fix:"大阪ガス 0120-0-19424（ガス漏れ）／それ以外は社員へ", paper:"web", links:[]},
+ {area:"kitchen", g:"ドリンク・給湯・換気", name:"排気フード", maker:"空調工事", model:"グリスフィルター付き（鉄板・ゆで麺器の上）", t:[
+   ["煙が店にこもる","換気扇が回っているか。グリスフィルターが油でふさがっていないか。"],
+   ["掃除","グリスフィルターは油がたまると火事の原因になる。定期的に外して洗う。"]],
+  fix:"社員へ", paper:"web", links:[]},
+ {area:"kitchen", g:"水回り・什器", name:"シンク・作業台・棚（ステンレス）", maker:"フクシマガリレイ（製作）", model:"二槽ソイルドテーブル／一槽シンク／作業台×2／吊戸棚×2／架台", t:[
+   ["排水があふれる・流れない","水を止める。ゴミ受けとグリストラップのごみを取る。直らなければ社員へ。"],
+   ["水漏れ","蛇口・止水栓を閉める。床が濡れたら「足元注意」を出して拭く。コンセントに水がかかったら近づかず社員へ。"],
+   ["追加の棚","11/6の閉店後に取り付け予定（サーバー上平棚・オープン吊戸棚・平棚・パイプ棚・吊下棚×3・すきま台・ボンベ架台）。"]],
+  fix:"社員へ", paper:"取説なし", links:[]},
+ {area:"kitchen", g:"計量・タイマー", name:"はかり・スケール・タイマー・温度計", maker:"A&D／タニタ", model:"SH-20K／KW-220／TD-426／AD-5635", t:[
+   ["表示が消えた・薄い","電池切れのことが多い。はかり SH-20K は単1×4本、スケール KW-220 は単4×2本、温度計 AD-5635 は単4×2本、タイマー TD-426 はボタン電池 CR2032。"],
+   ["数字がおかしい","平らな場所に置き直し、何も乗せずに電源を入れ直す（ゼロに戻す）。"]],
+  fix:"社員へ", paper:"紙あり", links:[["はかり SH-20K 取説","https://www.aandd.co.jp/pdf_storage/manual/balance/m_sh.pdf"],["スケール KW-220 取説","https://api-img.tanita.co.jp/v=1667538798/files/user/support/manual/kw_series/kw220_320.pdf"],["タイマー TD-426 取説","https://api-img.tanita.co.jp/v=1756789279/files/user/support/manual/td_series/td426.pdf"],["温度計 AD-5635 取説","https://www.aandd.co.jp/pdf_storage/manual/sp/m_ad5635.pdf"]]},
+ /* ---------------- ホール ---------------- */
+ {area:"hall", g:"客席", name:"客席の鉄板（各テーブル・ガス）", maker:"K2スチール（設置・保守の担当）", model:"7卓", t:[
+   ["火がつかない","テーブルのガス栓（コック）が開いているか。地震のあとはガスメーターの復帰（「緊急時」タブ）。"],
+   ["温度が上がらない・ムラがある","温度計（AD-5635）で確認。目安は弱110℃・中150℃・強180℃。それでも上がらなければK2スチールへ。"],
+   ["炎が赤い・不安定・消える","その卓のガス栓を閉めて使用中止。お客様の席を移す。"],
+   ["ガス臭い","すぐに全部のガス栓を閉める。火をつけない、換気扇や照明のスイッチも触らない。窓とドアを開け、お客様を外へ。店の外から大阪ガス 0120-0-19424。"],
+   ["油に火が入った","水は絶対にかけない。ガス栓を閉め、消火器で消す。"]],
+  fix:"K2スチール 川本さん 090-7501-1373／ガス臭いときは大阪ガス 0120-0-19424", paper:"web", links:[]},
+ {area:"hall", g:"電気・設備", name:"ブレーカー（分電盤）", maker:"パナソニック", model:"コスモパネル コンパクト21", t:[
+   ["店の一部だけ電気が消えた","分電盤を開け、「切」に下がっているブレーカーを探す。使っている電気製品を減らしてから「入」に上げる。"],
+   ["すぐまた落ちる","何度も上げない。その回路の機械を止めたまま社員へ。焦げ臭い・音がするときも触らない。"],
+   ["店全体が消えた","外の信号や隣の店も消えていたら停電。関西電力送配電 0800-777-3081。"]],
+  fix:"社員へ", paper:"紙あり", links:[["公式の取説検索","https://www2.panasonic.biz/jp/sumai/manual/"]]},
+ {area:"hall", g:"電気・設備", name:"ロールスクリーン・照明・空調・看板", maker:"サンゲツほか", model:"ロールスクリーン T型メカ（取説 No.R-240004）", t:[
+   ["ロールスクリーンが上がらない・下がらない","無理に引っぱらない。途中で止まったら一度下まで下ろしてから戻す。"],
+   ["照明・空調・LED看板がつかない","スイッチとブレーカーを確認。直らなければ社員へ。お客様の席を移せるなら移す。"],
+   ["エアコンの効きが悪い","フィルター（イイナフィルター）の汚れを確認。交換は社員に相談。"]],
+  fix:"社員へ", paper:"紙あり", links:[["ロールスクリーン 取扱説明ページ","https://www.sangetsu.co.jp/download/maintenance.html"]]},
+ {area:"hall", g:"事務・備品", name:"複合機（FAX・電話）", maker:"ブラザー", model:"MFC-J943DN", t:[
+   ["印刷・FAXができない","紙詰まりと用紙を確認して、電源を入れ直す。"],
+   ["インクがない","インクは LC511 シリーズ。予備がなければ社員へ。"]],
+  fix:"社員へ", paper:"web", links:[["製品マニュアル一覧","https://support.brother.co.jp/j/b/manualtop.aspx?c=jp&lang=ja&prod=mfcj943dn"]]},
+ {area:"hall", g:"事務・備品", name:"トランシーバー", maker:"BLUE CENTURY", model:"BC-21（イヤホンマイク付き）", t:[
+   ["声が届かない","電池と、全員が同じチャンネルかを確認。だめなら声かけ・手書きで連携。"]],
+  fix:"社員へ", paper:"紙の取説", links:[]},
+ {area:"hall", g:"事務・備品", name:"テプラ・ラミネーター", maker:"キングジム／アイリスオーヤマ", model:"SR370／LM32D-W", t:[
+   ["テプラが印刷しない","テープカートリッジ（SS12K など）が正しく入っているか。電池・ACアダプタ。"],
+   ["ラミネートが波打つ","温まるまで待ってから通す。フィルムは BH-907（A4）。"]],
+  fix:"社員へ", paper:"紙あり", links:[["テプラ SR370 基本操作マニュアル","https://www.kingjim.co.jp/resource-files/download/manual/tepra/sr370qg.pdf"]]},
+ {area:"hall", g:"事務・備品", name:"金庫・キーボックス・コインカウンター", maker:"Amazonベーシック／エスコ／エンゲルス", model:"金庫14L／EA983ZA-11A／コインカウンター Ver.1", t:[
+   ["開かない","暗証番号は社員だけが知っている。無理に回さず社員へ。"],
+   ["金庫の電池","電子式。表示が出ないときは電池切れのことがある。社員へ。"]],
+  fix:"社員へ", paper:"紙の取説", links:[["コインカウンター 製品ページ","https://engels.co.jp/coincounter"]]},
+ {area:"hall", g:"事務・備品", name:"掃除機・時計・コンセントタイマー", maker:"マキタ／シチズン／リーベックス", model:"CL280FD／8RZ096-023／CT11", t:[
+   ["掃除機が止まる","バッテリーの充電、ダストケースのごみを捨てる。保証は2026/10/23から1年。"],
+   ["時計がずれる","電波が入りにくい場所。窓の近くに置き直すか、電池交換。"],
+   ["タイマーが動かない","設定した時間とスイッチ（入／切）を確認。最大11時間。"]],
+  fix:"社員へ", paper:"紙あり", links:[["マキタ CL280FD 取説","https://www.makita.co.jp/product/files/881E90H0_DU604.pdf"],["シチズン 取説検索","https://citizen.jp/support-jp/manual/item_selection.html"]]},
+ /* ---------------- ダイニー・USEN・Stera ---------------- */
+ {area:"system", g:"ダイニー", name:"POSレジ・ハンディ・キッチンプリンター・キッチンディスプレイ", maker:"ダイニー", model:"レジ用iPad／ハンディ用スマホ／キッチンプリンター（80mm）", t:[
+   ["注文が入らない・送れない","すぐに手書き伝票に切り替える（伝票ホルダーに挟んでキッチンへ）。お客様に「少々お時間をいただきます」と一言。"],
+   ["直し方","iPad・スマホを再起動 → Wi-Fiルーターの電源を抜いて10秒後に差す → 5分待つ。"],
+   ["キッチンで伝票が出ない","プリンターの紙切れ（80mm幅ロール）、フタの閉め忘れ、電源を確認。"],
+   ["それでも直らない","LINEの「ダイニー チャットサポート」に連絡する（下のQRコードから友だち追加）。人が対応するのは10:00〜23:00。店名「どてっぱん 大阪寺田町店」と、何が起きているかを送る。"],
+   ["メニュー・クルー登録の変更","社員が行う。"]],
+  fix:"LINE「ダイニー チャットサポート」（有人対応 10:00〜23:00）", qr:"PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPHN2ZyB3aWR0aD0iMzNtbSIgaGVpZ2h0PSIzM21tIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMyAzMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMiwySDNWM0gyek0zLDJINFYzSDN6TTQsMkg1VjNINHpNNSwySDZWM0g1ek02LDJIN1YzSDZ6TTcsMkg4VjNIN3pNOCwySDlWM0g4ek0xMCwySDExVjNIMTB6TTEyLDJIMTNWM0gxMnpNMTQsMkgxNVYzSDE0ek0xNywySDE4VjNIMTd6TTE4LDJIMTlWM0gxOHpNMjAsMkgyMVYzSDIwek0yMiwySDIzVjNIMjJ6TTI0LDJIMjVWM0gyNHpNMjUsMkgyNlYzSDI1ek0yNiwySDI3VjNIMjZ6TTI3LDJIMjhWM0gyN3pNMjgsMkgyOVYzSDI4ek0yOSwySDMwVjNIMjl6TTMwLDJIMzFWM0gzMHpNMiwzSDNWNEgyek04LDNIOVY0SDh6TTEzLDNIMTRWNEgxM3pNMTUsM0gxNlY0SDE1ek0xNiwzSDE3VjRIMTZ6TTE4LDNIMTlWNEgxOHpNMTksM0gyMFY0SDE5ek0yMCwzSDIxVjRIMjB6TTI0LDNIMjVWNEgyNHpNMzAsM0gzMVY0SDMwek0yLDRIM1Y1SDJ6TTQsNEg1VjVINHpNNSw0SDZWNUg1ek02LDRIN1Y1SDZ6TTgsNEg5VjVIOHpNMTAsNEgxMVY1SDEwek0xMiw0SDEzVjVIMTJ6TTEzLDRIMTRWNUgxM3pNMTYsNEgxN1Y1SDE2ek0xNyw0SDE4VjVIMTd6TTE4LDRIMTlWNUgxOHpNMTksNEgyMFY1SDE5ek0yMSw0SDIyVjVIMjF6TTIyLDRIMjNWNUgyMnpNMjQsNEgyNVY1SDI0ek0yNiw0SDI3VjVIMjZ6TTI3LDRIMjhWNUgyN3pNMjgsNEgyOVY1SDI4ek0zMCw0SDMxVjVIMzB6TTIsNUgzVjZIMnpNNCw1SDVWNkg0ek01LDVINlY2SDV6TTYsNUg3VjZINnpNOCw1SDlWNkg4ek0xMSw1SDEyVjZIMTF6TTEzLDVIMTRWNkgxM3pNMTYsNUgxN1Y2SDE2ek0yMCw1SDIxVjZIMjB6TTIyLDVIMjNWNkgyMnpNMjQsNUgyNVY2SDI0ek0yNiw1SDI3VjZIMjZ6TTI3LDVIMjhWNkgyN3pNMjgsNUgyOVY2SDI4ek0zMCw1SDMxVjZIMzB6TTIsNkgzVjdIMnpNNCw2SDVWN0g0ek01LDZINlY3SDV6TTYsNkg3VjdINnpNOCw2SDlWN0g4ek0xMiw2SDEzVjdIMTJ6TTEzLDZIMTRWN0gxM3pNMTUsNkgxNlY3SDE1ek0xNiw2SDE3VjdIMTZ6TTE3LDZIMThWN0gxN3pNMTksNkgyMFY3SDE5ek0yMCw2SDIxVjdIMjB6TTI0LDZIMjVWN0gyNHpNMjYsNkgyN1Y3SDI2ek0yNyw2SDI4VjdIMjd6TTI4LDZIMjlWN0gyOHpNMzAsNkgzMVY3SDMwek0yLDdIM1Y4SDJ6TTgsN0g5VjhIOHpNMTAsN0gxMVY4SDEwek0xMSw3SDEyVjhIMTF6TTEyLDdIMTNWOEgxMnpNMTQsN0gxNVY4SDE0ek0xNyw3SDE4VjhIMTd6TTIyLDdIMjNWOEgyMnpNMjQsN0gyNVY4SDI0ek0zMCw3SDMxVjhIMzB6TTIsOEgzVjlIMnpNMyw4SDRWOUgzek00LDhINVY5SDR6TTUsOEg2VjlINXpNNiw4SDdWOUg2ek03LDhIOFY5SDd6TTgsOEg5VjlIOHpNMTAsOEgxMVY5SDEwek0xMiw4SDEzVjlIMTJ6TTE0LDhIMTVWOUgxNHpNMTYsOEgxN1Y5SDE2ek0xOCw4SDE5VjlIMTh6TTIwLDhIMjFWOUgyMHpNMjIsOEgyM1Y5SDIyek0yNCw4SDI1VjlIMjR6TTI1LDhIMjZWOUgyNXpNMjYsOEgyN1Y5SDI2ek0yNyw4SDI4VjlIMjd6TTI4LDhIMjlWOUgyOHpNMjksOEgzMFY5SDI5ek0zMCw4SDMxVjlIMzB6TTExLDlIMTJWMTBIMTF6TTEzLDlIMTRWMTBIMTN6TTE0LDlIMTVWMTBIMTR6TTE2LDlIMTdWMTBIMTZ6TTE3LDlIMThWMTBIMTd6TTE4LDlIMTlWMTBIMTh6TTIxLDlIMjJWMTBIMjF6TTIyLDlIMjNWMTBIMjJ6TTIsMTBIM1YxMUgyek00LDEwSDVWMTFINHpNOCwxMEg5VjExSDh6TTksMTBIMTBWMTFIOXpNMTIsMTBIMTNWMTFIMTJ6TTEzLDEwSDE0VjExSDEzek0xNCwxMEgxNVYxMUgxNHpNMTUsMTBIMTZWMTFIMTV6TTE2LDEwSDE3VjExSDE2ek0yMCwxMEgyMVYxMUgyMHpNMjIsMTBIMjNWMTFIMjJ6TTI1LDEwSDI2VjExSDI1ek0yOCwxMEgyOVYxMUgyOHpNMzAsMTBIMzFWMTFIMzB6TTIsMTFIM1YxMkgyek03LDExSDhWMTJIN3pNMTAsMTFIMTFWMTJIMTB6TTEyLDExSDEzVjEySDEyek0xMywxMUgxNFYxMkgxM3pNMTUsMTFIMTZWMTJIMTV6TTE2LDExSDE3VjEySDE2ek0yMCwxMUgyMVYxMkgyMHpNMjEsMTFIMjJWMTJIMjF6TTI0LDExSDI1VjEySDI0ek0yOSwxMUgzMFYxMkgyOXpNMzAsMTFIMzFWMTJIMzB6TTIsMTJIM1YxM0gyek01LDEySDZWMTNINXpNOCwxMkg5VjEzSDh6TTE0LDEySDE1VjEzSDE0ek0xNywxMkgxOFYxM0gxN3pNMTksMTJIMjBWMTNIMTl6TTIwLDEySDIxVjEzSDIwek0yMSwxMkgyMlYxM0gyMXpNMjYsMTJIMjdWMTNIMjZ6TTI3LDEySDI4VjEzSDI3ek0yOCwxMkgyOVYxM0gyOHpNMzAsMTJIMzFWMTNIMzB6TTUsMTNINlYxNEg1ek02LDEzSDdWMTRINnpNMTEsMTNIMTJWMTRIMTF6TTEyLDEzSDEzVjE0SDEyek0xMywxM0gxNFYxNEgxM3pNMTQsMTNIMTVWMTRIMTR6TTE1LDEzSDE2VjE0SDE1ek0yNCwxM0gyNVYxNEgyNHpNMjUsMTNIMjZWMTRIMjV6TTI3LDEzSDI4VjE0SDI3ek0zLDE0SDRWMTVIM3pNNSwxNEg2VjE1SDV6TTgsMTRIOVYxNUg4ek0xMCwxNEgxMVYxNUgxMHpNMTQsMTRIMTVWMTVIMTR6TTE1LDE0SDE2VjE1SDE1ek0xNywxNEgxOFYxNUgxN3pNMTgsMTRIMTlWMTVIMTh6TTIwLDE0SDIxVjE1SDIwek0yMiwxNEgyM1YxNUgyMnpNMjQsMTRIMjVWMTVIMjR6TTI1LDE0SDI2VjE1SDI1ek0zMCwxNEgzMVYxNUgzMHpNMiwxNUgzVjE2SDJ6TTUsMTVINlYxNkg1ek05LDE1SDEwVjE2SDl6TTEyLDE1SDEzVjE2SDEyek0xNCwxNUgxNVYxNkgxNHpNMTgsMTVIMTlWMTZIMTh6TTIwLDE1SDIxVjE2SDIwek0yMSwxNUgyMlYxNkgyMXpNMjIsMTVIMjNWMTZIMjJ6TTI0LDE1SDI1VjE2SDI0ek0yNSwxNUgyNlYxNkgyNXpNMjksMTVIMzBWMTZIMjl6TTMwLDE1SDMxVjE2SDMwek0yLDE2SDNWMTdIMnpNMywxNkg0VjE3SDN6TTcsMTZIOFYxN0g3ek04LDE2SDlWMTdIOHpNOSwxNkgxMFYxN0g5ek0xMywxNkgxNFYxN0gxM3pNMTUsMTZIMTZWMTdIMTV6TTE2LDE2SDE3VjE3SDE2ek0xOCwxNkgxOVYxN0gxOHpNMTksMTZIMjBWMTdIMTl6TTIxLDE2SDIyVjE3SDIxek0yMiwxNkgyM1YxN0gyMnpNMjUsMTZIMjZWMTdIMjV6TTMwLDE2SDMxVjE3SDMwek0yLDE3SDNWMThIMnpNMywxN0g0VjE4SDN6TTQsMTdINVYxOEg0ek01LDE3SDZWMThINXpNNywxN0g4VjE4SDd6TTksMTdIMTBWMThIOXpNMTEsMTdIMTJWMThIMTF6TTEyLDE3SDEzVjE4SDEyek0xNiwxN0gxN1YxOEgxNnpNMTcsMTdIMThWMThIMTd6TTE4LDE3SDE5VjE4SDE4ek0yMCwxN0gyMVYxOEgyMHpNMjIsMTdIMjNWMThIMjJ6TTIzLDE3SDI0VjE4SDIzek0yNSwxN0gyNlYxOEgyNXpNMjYsMTdIMjdWMThIMjZ6TTIsMThIM1YxOUgyek00LDE4SDVWMTlINHpNNSwxOEg2VjE5SDV6TTYsMThIN1YxOUg2ek03LDE4SDhWMTlIN3pNOCwxOEg5VjE5SDh6TTEwLDE4SDExVjE5SDEwek0xMSwxOEgxMlYxOUgxMXpNMTIsMThIMTNWMTlIMTJ6TTE0LDE4SDE1VjE5SDE0ek0xNSwxOEgxNlYxOUgxNXpNMTYsMThIMTdWMTlIMTZ6TTE4LDE4SDE5VjE5SDE4ek0yMCwxOEgyMVYxOUgyMHpNMjEsMThIMjJWMTlIMjF6TTI0LDE4SDI1VjE5SDI0ek0yNSwxOEgyNlYxOUgyNXpNMzAsMThIMzFWMTlIMzB6TTUsMTlINlYyMEg1ek03LDE5SDhWMjBIN3pNOSwxOUgxMFYyMEg5ek0xMCwxOUgxMVYyMEgxMHpNMTUsMTlIMTZWMjBIMTV6TTE2LDE5SDE3VjIwSDE2ek0xOSwxOUgyMFYyMEgxOXpNMjAsMTlIMjFWMjBIMjB6TTIxLDE5SDIyVjIwSDIxek0yMiwxOUgyM1YyMEgyMnpNMjQsMTlIMjVWMjBIMjR6TTI1LDE5SDI2VjIwSDI1ek0yOCwxOUgyOVYyMEgyOHpNMjksMTlIMzBWMjBIMjl6TTMwLDE5SDMxVjIwSDMwek0yLDIwSDNWMjFIMnpNMywyMEg0VjIxSDN6TTUsMjBINlYyMUg1ek03LDIwSDhWMjFIN3pNOCwyMEg5VjIxSDh6TTksMjBIMTBWMjFIOXpNMTEsMjBIMTJWMjFIMTF6TTE0LDIwSDE1VjIxSDE0ek0xNywyMEgxOFYyMUgxN3pNMTksMjBIMjBWMjFIMTl6TTIwLDIwSDIxVjIxSDIwek0yMSwyMEgyMlYyMUgyMXpNMjQsMjBIMjVWMjFIMjR6TTI2LDIwSDI3VjIxSDI2ek0yNywyMEgyOFYyMUgyN3pNMzAsMjBIMzFWMjFIMzB6TTUsMjFINlYyMkg1ek02LDIxSDdWMjJINnpNOSwyMUgxMFYyMkg5ek0xMSwyMUgxMlYyMkgxMXpNMTMsMjFIMTRWMjJIMTN6TTE0LDIxSDE1VjIySDE0ek0xNSwyMUgxNlYyMkgxNXpNMTgsMjFIMTlWMjJIMTh6TTIxLDIxSDIyVjIySDIxek0yMiwyMUgyM1YyMkgyMnpNMjMsMjFIMjRWMjJIMjN6TTI2LDIxSDI3VjIySDI2ek0yLDIySDNWMjNIMnpNMywyMkg0VjIzSDN6TTQsMjJINVYyM0g0ek02LDIySDdWMjNINnpNNywyMkg4VjIzSDd6TTgsMjJIOVYyM0g4ek05LDIySDEwVjIzSDl6TTEwLDIySDExVjIzSDEwek0xMywyMkgxNFYyM0gxM3pNMTQsMjJIMTVWMjNIMTR6TTE1LDIySDE2VjIzSDE1ek0xNywyMkgxOFYyM0gxN3pNMjIsMjJIMjNWMjNIMjJ6TTIzLDIySDI0VjIzSDIzek0yNCwyMkgyNVYyM0gyNHpNMjUsMjJIMjZWMjNIMjV6TTI2LDIySDI3VjIzSDI2ek0yNywyMkgyOFYyM0gyN3pNMjksMjJIMzBWMjNIMjl6TTEwLDIzSDExVjI0SDEwek0xMiwyM0gxM1YyNEgxMnpNMTQsMjNIMTVWMjRIMTR6TTE3LDIzSDE4VjI0SDE3ek0xOCwyM0gxOVYyNEgxOHpNMjIsMjNIMjNWMjRIMjJ6TTI2LDIzSDI3VjI0SDI2ek0yNywyM0gyOFYyNEgyN3pNMjgsMjNIMjlWMjRIMjh6TTMwLDIzSDMxVjI0SDMwek0yLDI0SDNWMjVIMnpNMywyNEg0VjI1SDN6TTQsMjRINVYyNUg0ek01LDI0SDZWMjVINXpNNiwyNEg3VjI1SDZ6TTcsMjRIOFYyNUg3ek04LDI0SDlWMjVIOHpNMTAsMjRIMTFWMjVIMTB6TTEyLDI0SDEzVjI1SDEyek0xNSwyNEgxNlYyNUgxNXpNMTYsMjRIMTdWMjVIMTZ6TTE3LDI0SDE4VjI1SDE3ek0xOCwyNEgxOVYyNUgxOHpNMTksMjRIMjBWMjVIMTl6TTIyLDI0SDIzVjI1SDIyek0yNCwyNEgyNVYyNUgyNHpNMjYsMjRIMjdWMjVIMjZ6TTMwLDI0SDMxVjI1SDMwek0yLDI1SDNWMjZIMnpNOCwyNUg5VjI2SDh6TTEyLDI1SDEzVjI2SDEyek0xNCwyNUgxNVYyNkgxNHpNMTYsMjVIMTdWMjZIMTZ6TTE4LDI1SDE5VjI2SDE4ek0yMCwyNUgyMVYyNkgyMHpNMjIsMjVIMjNWMjZIMjJ6TTI2LDI1SDI3VjI2SDI2ek0yLDI2SDNWMjdIMnpNNCwyNkg1VjI3SDR6TTUsMjZINlYyN0g1ek02LDI2SDdWMjdINnpNOCwyNkg5VjI3SDh6TTE1LDI2SDE2VjI3SDE1ek0xNiwyNkgxN1YyN0gxNnpNMTcsMjZIMThWMjdIMTd6TTIxLDI2SDIyVjI3SDIxek0yMiwyNkgyM1YyN0gyMnpNMjMsMjZIMjRWMjdIMjN6TTI0LDI2SDI1VjI3SDI0ek0yNSwyNkgyNlYyN0gyNXpNMjYsMjZIMjdWMjdIMjZ6TTI3LDI2SDI4VjI3SDI3ek0yOSwyNkgzMFYyN0gyOXpNMzAsMjZIMzFWMjdIMzB6TTIsMjdIM1YyOEgyek00LDI3SDVWMjhINHpNNSwyN0g2VjI4SDV6TTYsMjdIN1YyOEg2ek04LDI3SDlWMjhIOHpNMTQsMjdIMTVWMjhIMTR6TTE1LDI3SDE2VjI4SDE1ek0xNiwyN0gxN1YyOEgxNnpNMTcsMjdIMThWMjhIMTd6TTE4LDI3SDE5VjI4SDE4ek0yMCwyN0gyMVYyOEgyMHpNMjIsMjdIMjNWMjhIMjJ6TTI2LDI3SDI3VjI4SDI2ek0yNywyN0gyOFYyOEgyN3pNMjgsMjdIMjlWMjhIMjh6TTMwLDI3SDMxVjI4SDMwek0yLDI4SDNWMjlIMnpNNCwyOEg1VjI5SDR6TTUsMjhINlYyOUg1ek02LDI4SDdWMjlINnpNOCwyOEg5VjI5SDh6TTEwLDI4SDExVjI5SDEwek0xMSwyOEgxMlYyOUgxMXpNMTQsMjhIMTVWMjlIMTR6TTE1LDI4SDE2VjI5SDE1ek0xNywyOEgxOFYyOUgxN3pNMTgsMjhIMTlWMjlIMTh6TTE5LDI4SDIwVjI5SDE5ek0yMCwyOEgyMVYyOUgyMHpNMjEsMjhIMjJWMjlIMjF6TTIyLDI4SDIzVjI5SDIyek0yMywyOEgyNFYyOUgyM3pNMjYsMjhIMjdWMjlIMjZ6TTI5LDI4SDMwVjI5SDI5ek0zMCwyOEgzMVYyOUgzMHpNMiwyOUgzVjMwSDJ6TTgsMjlIOVYzMEg4ek0xMiwyOUgxM1YzMEgxMnpNMTMsMjlIMTRWMzBIMTN6TTE4LDI5SDE5VjMwSDE4ek0yMCwyOUgyMVYzMEgyMHpNMjEsMjlIMjJWMzBIMjF6TTIzLDI5SDI0VjMwSDIzek0yNCwyOUgyNVYzMEgyNHpNMjcsMjlIMjhWMzBIMjd6TTIsMzBIM1YzMUgyek0zLDMwSDRWMzFIM3pNNCwzMEg1VjMxSDR6TTUsMzBINlYzMUg1ek02LDMwSDdWMzFINnpNNywzMEg4VjMxSDd6TTgsMzBIOVYzMUg4ek0xMCwzMEgxMVYzMUgxMHpNMTMsMzBIMTRWMzFIMTN6TTE2LDMwSDE3VjMxSDE2ek0xNywzMEgxOFYzMUgxN3pNMjIsMzBIMjNWMzFIMjJ6TTI3LDMwSDI4VjMxSDI3ek0zMCwzMEgzMVYzMUgzMHoiIGlkPSJxci1wYXRoIiBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjEiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+", qrUrl:"https://line.me/R/ti/p/@058eqttu", paper:"web", links:[["LINEでサポートに連絡","https://line.me/R/ti/p/@058eqttu"],["POSレジの使い方","https://dinii.jp/document/article/posregi_tukaikata/"],["よくある質問","https://dinii.jp/question/"]]},
+ {area:"system", g:"Stera", name:"決済端末（クレジット・電子マネー・QR）", maker:"三井住友カード stera", model:"stera terminal", t:[
+   ["決済できない","端末を再起動して、通信（Wi-Fi）を確認。だめならお客様に先に伝えて現金で受ける。"],
+   ["レシートが出ない","紙切れ。58mm幅のロールに交換。"],
+   ["返金・取り消し","クルーだけで操作しない。社員を呼ぶ。"]],
+  fix:"社員へ（stera のサポート窓口）", paper:"web", links:[["stera 取扱説明書一覧","https://steradashboard.com/manuals"],["取説の探し方（FAQ）","https://steradashboard.com/faqs/2649"]]},
+ {area:"system", g:"USEN", name:"防犯カメラ", maker:"USEN（USEN Camera）", model:"台数・プランは社員に確認", t:[
+   ["映像が見られない","Wi-Fiルーターと録画機の電源を確認。"],
+   ["録画を確認したい","社員がアプリで見る。クルーは社員に依頼。"]],
+  fix:"社員へ", paper:"web", links:[["USEN Camera サポート","https://support.usen.com/category/show/172?site_domain=default"]]},
+ {area:"system", g:"iPad・Wi-Fi", name:"注文・レジ用 iPad（×5）とWi-Fi", maker:"Apple ほか", model:"iPad（第9世代）", t:[
+   ["固まった","電源ボタンとホームボタンを同時に長押しして再起動。"],
+   ["充電されない","10ポートのUSB充電ステーションに挿し直す。ケーブルを替える。"],
+   ["ネットにつながらない","Wi-Fiルーターの電源を抜いて10秒後に差し、5分待つ。"]],
+  fix:"社員へ", paper:"web", links:[["iPad サポート","https://support.apple.com/ja-jp/ipad"]]}
+];
+
+/* 食材・消耗品の発注先（【取引先リスト】大阪寺田町店 と 寺田町_オープン発注.xlsx より） */
+const FOOD = [
+ {cat:"野菜", v:"村上商事", how:"MPS", due:"前日16:00まで", days:"月・火・木・金・土", time:"9:00〜11:00", notes:[]},
+ {cat:"肉", v:"牛長", how:"MPS", due:"確認中", days:"確認中", time:"確認中", notes:[]},
+ {cat:"魚介", v:"山大", how:"MPS", due:"—", days:"注文から最短2営業日", time:"", notes:[]},
+ {cat:"チャーシュー（油そば）", v:"山大", how:"社員からCOOに発注依頼", due:"—", days:"—", time:"", notes:["社員からCOOに発注依頼をかける。"]},
+ {cat:"タレ・返し（油そば）", v:"山大", how:"MPS", due:"—", days:"—", time:"", notes:[]},
+ {cat:"麺（油そば）", v:"サッポロめんフーズ", how:"メールで発注", due:"2日前まで", days:"月・火・水・金（木は届かない）", time:"", notes:["油そばは平日ランチのみ。土日はオープン後の数字を見て決める。"]},
+ {cat:"乾物・その他の食材", v:"高瀬物産（大阪支店・文野さん）", how:"MPS", due:"前日18:00まで", days:"月・火・水・金", time:"15:00前後", key:"takase", notes:[]},
+ {cat:"牛もつ", v:"日本食研", how:"MPS", due:"当日23:59まで（翌々日に届く）", days:"月〜土", time:"8:00〜15:00（確認中）", notes:[]},
+ {cat:"キムチ", v:"MNY", how:"MPS", due:"—", days:"注文から最短2営業日", time:"", notes:["白菜キムチ・チャンジャ・タコキムチ。"]},
+ {cat:"鰹節", v:"福島鰹", how:"設定中", due:"—", days:"注文から最短2営業日", time:"", notes:["1ケース使い切ったら、2ケース発注する。"]},
+ {cat:"ドリンク", v:"カクヤス", how:"MPS", due:"前日23:00まで", days:"毎日", time:"", notes:["アサヒスーパードライ中瓶だけは新井酒店。","廃止：七田、大隅（芋・麦）、ジャックダニエル テネシーハニー、碧、ワイン（サンジョベーゼ・マスカットベリーA・シャルドネ・甲州）。"]},
+ {cat:"出汁・ソース・その他", v:"カクヤス", how:"MPS", due:"前日23:00まで", days:"毎日", time:"", notes:["どてっぱんソース（20kg）、辛口ソース（2kgボトル）、GFお好み出汁、GFもんじゃの素、炭酸ガス。"]},
+ {cat:"消耗品（洗剤・ペーパー・手袋）", v:"ティーポールサービス", how:"MPS", due:"—", days:"注文から最短2営業日", time:"", notes:[]},
+ {cat:"食器・備品", v:"マルキ", how:"MPS", due:"—", days:"注文から最短2営業日", time:"", notes:[]}
+];
+const TAKASE_NOTES = [
+ "【商品開発の追加商品】ベストシェフ 濃口醤油、ベストシェフ 特撰生おろしにんにく 1kg、テーオー みじん切りにんにく 1kg。MPSで発注する。",
+ "醤油：ワダカン「八甲田伏流水 本醸造醤油 1.8L」は大阪支店では扱いがない。代わりにベストシェフ 濃口醤油を使う。",
+ "キッチン用の塩コショウ（粉タイプ）は別に発注が必要。",
+ "Chefeel 粗挽きブラックペッパーはケース（12本）単位。支店によって1本では出ないことがある。",
+ "廃止：スズヒロ 包装蒲鉾、キッコーマン はんぺん。",
+ "秋メニュー用：カゴメ トマトガーリックソース、赤唐辛子輪切り、桃屋 きざみにんにく、銀鮭切身、ヤマキ めんつゆ、きざみオクラ、ひきわり納豆、とびっ子、ガーリックバターソース、本焼きなす、本生しょうが、もみじおろしぽん酢。"
+];
+/* 機器・設備・システムの業者 */
+const SERVICE = [
+ {cat:"冷蔵庫・冷凍庫・コールドテーブル・ショーケース／厨房のステンレス什器", v:"フクシマガリレイ", tel:"0120-213-521", memo:"修理受付。平日 9:00〜17:00"},
+ {cat:"冷蔵庫 HR-63ZT・食器洗浄機・製氷機", v:"ホシザキ京阪 天王寺営業所", tel:"06-6776-8501", memo:"平日。土曜は 0120-30-6038"},
+ {cat:"鉄板（YS450）", v:"伊東金属工業所（イトキン）", tel:"072-361-4590", memo:""},
+ {cat:"ガスゆで麺器（MRK-046B）", v:"マルゼン", tel:"03-5603-7111", memo:"本社の代表番号"},
+ {cat:"厨房備品・食器・キャベロボ", v:"マルキ", tel:"03-3494-1911", memo:"FAX 03-3494-1912"},
+ {cat:"ビールサーバー・炭酸ガス・ドリンク", v:"カクヤス", tel:"050-3786-3198", memo:""},
+ {cat:"洗剤・食洗機の洗剤・ペーパー類", v:"ティーポールサービス", tel:"", memo:"MPSで発注"},
+ {cat:"POSレジ・ハンディ・キッチンプリンター", v:"ダイニー", tel:"", memo:"LINE「ダイニー チャットサポート」（有人対応 10:00〜23:00）。機器トラブルタブにQRコードあり"},
+ {cat:"客席の鉄板（各テーブル）", v:"K2スチール（川本さん）", tel:"090-7501-1373", memo:"設置・保守の担当"},
+ {cat:"決済端末", v:"三井住友カード（stera）", tel:"", memo:"サポートは stera の取扱説明書一覧から"},
+ {cat:"防犯カメラ", v:"USEN", tel:"", memo:"契約内容は社員に確認"},
+ {cat:"ガス漏れ（24時間）", v:"大阪ガス", tel:"0120-0-19424", memo:"大阪市内"},
+ {cat:"停電・電気設備", v:"関西電力送配電", tel:"0800-777-3081", memo:"IP電話からは 050-3085-3081"}
+];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const telLink = n => n ? `<a class="tel" href="tel:${esc(n.replace(/[^0-9+#]/g,""))}">${esc(n)}</a>` : "";
+
+/* ---- 機器トラブル ---- */
+const AREA_LABEL = {kitchen:"キッチン", hall:"ホール", system:"ダイニー・USEN・Stera"};
+let curArea = "kitchen";
+function renderEquip(){
+  const q = ($("#eText").value||"").trim();
+  const items = EQUIP.filter(e => q ? (e.name+e.maker+e.model+e.t.map(x=>x.join("")).join("")).includes(q) : e.area===curArea);
+  const groups = [...new Set(items.map(e => (q ? AREA_LABEL[e.area]+"｜" : "")+e.g))];
+  $("#equip").innerHTML = groups.length ? groups.map(g => `<h3 class="grp">${esc(g)}</h3><div class="cards">${items.filter(e=>(q?AREA_LABEL[e.area]+"｜":"")+e.g===g).map(e=>`
+    <article class="card">
+      <div class="maker">${esc(e.maker)}${e.paper && e.paper!=="web" ? `　<span class="tag ${/なし/.test(e.paper)?"nopdf":"paper"}">${esc(e.paper)}</span>`:""}</div>
+      <h4 class="name">${esc(e.name)}</h4>
+      <div class="model">${esc(e.model)}</div>
+      <dl class="tsl">${e.t.map(([a,b])=>`<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("")}</dl>
+      <div class="fixline"><span>直らないとき</span>${esc(e.fix)}</div>
+      ${e.qr?`<a class="qrbox" href="${esc(e.qrUrl)}" target="_blank" rel="noopener"><img src="data:image/svg+xml;base64,${e.qr}" alt="ダイニー チャットサポートのLINE友だち追加QRコード" width="132" height="132"><span>スマホのカメラで読み取ると、LINEで「ダイニー チャットサポート」を友だち追加できます。</span></a>`:""}
+      ${e.links.length?`<div class="links">${e.links.map((l,i)=>`<a class="btn${i===0?" main":""}" href="${esc(l[1])}" target="_blank" rel="noopener">${esc(l[0])} ↗</a>`).join("")}</div>`:""}
+    </article>`).join("")}</div>`).join("") : `<div class="empty">「${esc(q)}」に当てはまる機器はありません。</div>`;
+  document.querySelectorAll(".eswitch").forEach(b => b.setAttribute("aria-selected", !q && b.dataset.area===curArea));
+}
+document.querySelectorAll(".eswitch").forEach(b => b.addEventListener("click", () => { curArea=b.dataset.area; $("#eText").value=""; renderEquip(); }));
+$("#eText").addEventListener("input", renderEquip);
+
+/* ---- 取扱業者 ---- */
+function renderVendors(){
+  $("#foodRows").innerHTML = FOOD.map(f => `<tr>
+    <td>${esc(f.cat)}</td><td><b>${esc(f.v)}</b></td><td>${esc(f.how)}</td><td>${esc(f.due)}</td><td>${esc(f.days)}</td><td>${esc(f.time)||"—"}</td></tr>`).join("");
+  const noteRows = [];
+  FOOD.forEach(f => {
+    const ns = f.key==="takase" ? TAKASE_NOTES : f.notes;
+    ns.forEach((n,i) => {
+      const m = n.match(/^【(.+?)】(.*)$/) || n.match(/^([^：]{1,14})：(.*)$/);
+      noteRows.push({v:f.v, cat:f.cat, first:i===0, span:ns.length, k: m?m[1]:"", t: m?m[2]:n});
+    });
+  });
+  $("#noteRows").innerHTML = noteRows.map(r => `<tr>${r.first?`<td rowspan="${r.span}" class="nv"><b>${esc(r.v)}</b><small>${esc(r.cat)}</small></td>`:""}<td class="nk">${r.k?`<span class="kchip">${esc(r.k)}</span>`:""}</td><td>${esc(r.t)}</td></tr>`).join("");
+  $("#svcRows").innerHTML = SERVICE.map(s => `<tr><td>${esc(s.cat)}</td><td><b>${esc(s.v)}</b></td><td class="num">${telLink(s.tel)||"—"}</td><td>${esc(s.memo)}</td></tr>`).join("");
+}
+
+/* ---- 緊急時：社員の連絡先と場所 ---- */
+const STAFF = {staff:[{role:"店長",name:"野村 亜衣",tel:"080-8525-2765"},{role:"エリア責任者",name:"才木 麻海",tel:"080-5761-4869"},{role:"社員",name:"",tel:""},{role:"本部",name:"",tel:""}],
+  places:[{role:"消火器",name:""},{role:"AED",name:"店内になし（119番で近くのAEDの場所と、心臓マッサージのやり方を聞く）"},{role:"ガスメーター",name:""},{role:"分電盤（ブレーカー）",name:""},{role:"救急箱",name:""}]};
+function renderStaff(){
+  $("#staffList").innerHTML = STAFF.staff.map(r=>`<li class="${r.tel?"":"empty-row"}"><span>${esc(r.role)}${r.name?`　${esc(r.name)}`:""}</span><b>${r.tel?telLink(r.tel):"未記入"}</b></li>`).join("")
+    + `<li><span style="font-family:var(--f-head);font-weight:700;padding-top:6px">店内の場所</span><b></b></li>`
+    + STAFF.places.map(r=>`<li class="${r.name?"":"empty-row"}"><span>${esc(r.role)}</span><b>${esc(r.name)||"未記入"}</b></li>`).join("");
+}
+
+/* ---- タブ・ジャンプ ---- */
+const VIEWS = ["kinkyu","kiki","gyosha"];
+function show(view){
+  VIEWS.forEach(k=>{ $("#v-"+k).hidden = k!==view; $("#tab-"+k).setAttribute("aria-selected", k===view); });
+  try{ history.replaceState(null,"","#"+view); }catch(e){}
+}
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{ show(b.dataset.view); window.scrollTo({top:$(".tabs").offsetTop,behavior:"smooth"}); }));
+document.querySelectorAll(".jump a").forEach(a=>a.addEventListener("click",e=>{
+  const h=a.getAttribute("href");
+  if(h==="#kiki"){ e.preventDefault(); show("kiki"); window.scrollTo({top:$(".tabs").offsetTop,behavior:"smooth"}); return; }
+  e.preventDefault(); const t=document.querySelector(h); if(t) t.scrollIntoView({behavior:"smooth",block:"start"});
+}));
+
+renderEquip(); renderVendors(); renderStaff();
+const h0=(location.hash||"").slice(1); show(VIEWS.includes(h0)?h0:"kinkyu");
+</script>
+
+</body></html>
